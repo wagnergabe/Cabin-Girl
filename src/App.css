@@ -39,13 +39,13 @@ main{
 }
 .link:hover{
   background:	#ffbcda;
-  color: #000;
+  color: #fff;
   transition: all 0.5s;
 }
 .active{
   background: 	#ffbcda;
-  color: #000;
+  color: #fff;
 }
 .icon, .link_text{
-  font-size: 20px;
+  font-size: 25px;
 }

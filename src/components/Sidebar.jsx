@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import {MdOutlineCabin, MdOutlineMailOutline} from "react-icons/md";
 import { CgGirl } from "react-icons/cg";
-import { AiOutlinePicture } from "react-icons/ai";
-import { GrPaint } from "react-icons/gr";
+import { AiOutlinePicture, AiOutlineFormatPainter } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -12,7 +11,7 @@ const Sidebar = ({children}) => {
   const menuItem = [
     {
       path: "/",
-      name: "home",
+      name: "Home",
       icon: <MdOutlineCabin />,
     },
     {
@@ -33,7 +32,7 @@ const Sidebar = ({children}) => {
     {
       path: "/employment",
       name: "Employment",
-      icon: <GrPaint />,
+      icon: <AiOutlineFormatPainter />,
     },
   ];
 
