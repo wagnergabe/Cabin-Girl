@@ -1,18 +1,36 @@
 import React from 'react';
-import cabin from '../assets/images/cabin-wi.jpg'
+import cabin from '../assets/images/cabin-wi.jpg';
+import coHouse from '../assets/images/co-house.jpg';
+import sdhome from '../assets/images/sdhome.webp';
+import tingreen from '../assets/images/tingreen.jpg';
+
+import Pics from '../components/Pics';
 
 
 
 const Gallery = () => {
 
-        
+    const galleryImages = [
+        {
+            img: cabin
+        },
+        {
+            img: coHouse
+        },
+        {
+            img: sdhome
+        },
+        {
+            img: tingreen
+        }
+    ]
 
     return (
         <div>
-            <h1>Gallery</h1>
-            <img src = {cabin} alt = 'cabin'></img>
-        </div>
+            <Pics galleryImages ={galleryImages} />
+            </div>
     )
 }
+
 
 export default Gallery;
