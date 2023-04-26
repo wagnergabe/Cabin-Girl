@@ -52,3 +52,23 @@ main{
 h1 {
   font-family: 'Space Mono', monospace;
 }
+.galleryWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.galleryWrap .single {
+  width: 200px;
+  cursor: pointer;
+}
+
+.galleryWrap .single img {
+  max-width: 100%;
+}
+
+
